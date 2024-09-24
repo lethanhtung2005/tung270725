@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .post {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .post h2 {
+            color: #2c3e50;
+        }
+        .post small {
+            color: #7f8c8d;
+        }
+        .comments {
+            margin-top: 20px;
+        }
+        blockquote {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #ccc;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        form input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Blog phim Việt Nam </h1>
+
+    <!-- Bài viết 1 -->
+    <div class="post">
+        <h2>Phim Nguời phán xử</h2>
+        <small>Ngày 24 tháng 09, 2024 - Tác giả: Lê Thanh Tùng</small>
+        <p>Người phán xử là câu chuyện về Phan Quân (NSND Hoàng Dũng) – một ông trùm thế giới ngầm núp bóng doanh nhân thành đạt, chủ tịch của Tập đoàn Phan Thị. Tuy là "con cáo già" với cái đầu lạnh, dã tâm lớn nhưng ông được kính nể bởi cách đối nhân xử thế trọng nghĩa khí, luôn đặt gia đình lên trên hết. Phan Quân còn được gọi là "Người phán xử", có quyền lực bậc nhất trong giới xã hội đen. Không chỉ phải đấu trí với các thế lực thù địch trong giới tội phạm, Phan Quân cũng đau đầu bởi mâu thuẫn trong gia đình, nhất là khi sự xuất hiện bất ngờ của một người tự xưng là con rơi từ nhiều năm trước đã khiến mọi chuyện trở nên rắc rối.</p>
+        <img src="data:image/jpeg;base64,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">
+
+
+        <!-- Phần bình luận -->
+        <div class="comments">
+            <h3>Bình luận</h3>
+
+            <!-- Bình luận 1 -->
+            <blockquote>
+                <strong>Vũ Ngọc Quang:</strong> Phim hay quá
+            </blockquote>
+
+            <!-- Bình luận 2 -->
+            <blockquote>
+                <strong>Nguyễn Trung Tùng:</strong> Cảm ơn tác giả đã chia sẻ!
+            </blockquote>
+
+            <!-- Form thêm bình luận -->
+            <form action="#" method="post">
+                <input type="text" name="commenter" placeholder="Tên của bạn" required>
+                <textarea name="comment" placeholder="Nội dung bình luận" rows="4" required></textarea>
+                <input type="submit" value="Gửi bình luận">
+            </form>
+        </div>
+    </div>
+
+    <!-- Bài viết 2 -->
+    <div class="post">
+        <h2>Gara Hạnh Phúc </h2>
+        <small>Ngày 23 tháng 09, 2024 - Tác giả: Lê Thanh Tùng </small>
+        <p>Gara hạnh phúc xoay quanh Sơn Ca (Quỳnh Kool), một cô gái trẻ cá tính giàu chí tiến thủ nhưng có tuổi thơ bất hạnh. Từ nhỏ, do bố nghiện cờ bạc, khiến mẹ bỏ nhà đi nên cô phải sống cùng ông nội. Lớn lên được ông dạy nghề, Sơn Ca đã theo học trường Cao đẳng kỹ thuật và trở thành thợ sửa xe ô tô. Để tiện chăm sóc ông nội, cô tìm mọi cách xin vào làm tại một gara sửa xe gần nhà. Tại đây, cô đã gặp Khải (Bảo Anh), chủ của gara và cũng là sếp cô; Vân (Nguyễn Hoàng Ngọc Huyền), em gái Khải, một cô gái nhút nhát với quá khứ bí ẩn đằng sau; và Trung (Duy Hưng), anh chàng quản lí keo kiệt. Tuy mỗi người một tính cách, một lối sống, họ lại dần trở thành những người bạn thân thiết, cùng nhau vượt qua sóng gió.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/vi/f/fe/Garahanhphucposter.png">
+
+        <!-- Phần bình luận -->
+        <div class="comments">
+            <h3>Bình luận</h3>
+
+            <!-- Bình luận 1 -->
+            <blockquote>
+                <strong>Lê Văn Vinh:</strong> Phim rất hay và bổ ích
+            </blockquote>
+
+            <!-- Form thêm bình luận -->
+            <form action="#" method="post">
+                <input type="text" name="commenter" placeholder="Tên của bạn" required>
+                <textarea name="comment" placeholder="Nội dung bình luận" rows="4" required></textarea>
+                <input type="submit" value="Gửi bình luận">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
